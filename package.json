@@ -1,0 +1,33 @@
+{
+  "name": "netprobe",
+  "main": "netprobe.js",
+  "author": {
+    "name": "Madhav nair",
+    "email": "madhavnair700@gmail.com",
+    "url": "https://maxtac.tech"
+  },
+  "description": "Internet Connection Monitor using JavaScript. FOSS by MaxTac.",
+  "version": "2.0.0",
+  "scripts": {
+    "start": "node netprobe.js",
+    "package": "npx exe exe.json"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "is-online": "^11.0.0",
+    "nexe": "^4.0.0-rc.6",
+    "node-notifier": "^10.0.1",
+    "os": "^0.1.2",
+    "systray": "^1.0.5",
+    "systray2": "^2.1.4"
+  },
+  "properties": {
+    "FileDescription": "{package:description}",
+    "ProductName": "{package:name}",
+    "LegalCopyright": "{package:author.name}",
+    "OriginalFilename": "{package:name}"
+  },
+  "bin": {
+    "execute": "netprobe.js"
+  }
+}
